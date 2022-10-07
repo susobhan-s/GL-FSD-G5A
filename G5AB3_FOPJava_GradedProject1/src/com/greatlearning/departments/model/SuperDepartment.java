@@ -1,5 +1,10 @@
 package com.greatlearning.departments.model;
 
+/*
+ Model definition of base Department - 
+ SuperDepartment
+ */
+
 public class SuperDepartment {
 
 	public String departmentName()

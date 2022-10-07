@@ -1,5 +1,9 @@
 package com.greatlearning.departments.model;
 
+/*
+Model definition of Tech Department(subclass) based on SuperDepartment(superclass)
+*/
+
 public class TechDepartment extends SuperDepartment {
 
 	public String departmentName() {

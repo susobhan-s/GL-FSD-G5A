@@ -1,5 +1,9 @@
 package com.greatlearning.departments.model;
 
+/*
+Model definition of Admin Department(subclass) based on SuperDepartment(superclass)
+*/
+
 public class AdminDepartment extends SuperDepartment {
 
 	public String departmentName() {

@@ -1,5 +1,9 @@
 package com.greatlearning.departments.model;
 
+/*
+Model definition of HR Department(subclass) based on SuperDepartment(superclass)
+*/
+
 public class HRDepartment extends SuperDepartment {
 
 	public String departmentName() {
