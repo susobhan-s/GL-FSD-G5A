@@ -1,10 +1,12 @@
 package com.greatlearning.paymoney.main.Driver;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class DriverClass {
 
-	private static int getNoOfTrans(int[] transArr, int target) {
+	private static int getNoOfTrans(Integer[] transArr, int target) {
 
 		int sum_of_trans = 0;
 
@@ -26,13 +28,15 @@ public class DriverClass {
 		System.out.println("Enter the number of transactions :");
 		int trn_sz = scnr.nextInt();
 
-		int[] trans_arr = new int[trn_sz];
+		Integer[] trans_arr = new Integer[trn_sz];
 
 		System.out.println("Enter the transaction values:");
 		for (int i = 0; i < trn_sz; i++) {
 			trans_arr[i] = scnr.nextInt();
 		}
 
+		Arrays.sort(trans_arr, Collections.reverseOrder());
+		
 		System.out.println("Enter the number of targets to be achieved :");
 		int targ_sz = scnr.nextInt();
 
